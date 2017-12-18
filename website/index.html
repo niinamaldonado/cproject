@@ -1,0 +1,90 @@
+
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="style.css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	
+	<title>Contacts</title>
+
+
+</head>
+
+
+<body>
+<div class = "body">
+
+	<div class = "header">
+		<h2> Celina Maldonado - Course Project</h2>
+	</div>
+
+		<div class = "topheader"> 
+				<h1>Manage Contact</h1>
+			</div>
+
+			<div class = "topheadertwo"> 
+					<h1>Contact List</h1>
+				</div>
+
+				<div class = "output">
+						<table id="contacts-table">
+						<tr id="contacts-head">
+							<th>#</th>
+							<th>First</th>
+							<th>Last</th>
+							<th>Email</th>
+							<th>Phone</th>
+							<th>Actions</th>
+						</tr>
+					</table>
+				</div>
+
+		<div class = "createContact">
+			<form id="contacts-form">
+				<div class="item text">
+					<label>First:</label>
+					<div class="field"><input id="firstNameInput" type="text" placeholder="First name" name="first_name" required/></div>
+				</div>
+				<div class="item text">
+					<label>Last:</label>
+					<div class="field"><input type="text" placeholder="Last name" name="last_name" required/></div>
+				</div>
+				<div class="item text">
+					<label><i class="glyphicon glyphicon-envelope"></i>
+					</label>
+					<div class="field"><input type="text" placeholder="name@email.com" name="email" required/></div>
+				</div>
+				<div class="item text">
+						<label><span class="glyphicon glyphicon-phone"></span></label>
+						<div class="field"><input type="number" placeholder="(###)###-####" name="phone" required/></div>
+					</div>
+				<div class="button-wrapper">
+					<div class="item button">
+						<div class="field"><input type="button" id="contacts-op-discard" value="Reset Form" /></div>
+					</div>
+					<div class="item button button-default">
+						<div class="field"><input type="submit" id="contacts-op-save" value="Save" /></div>
+					</div>
+				</div>
+				<input type="hidden" name="id_entry" value="0" />
+			</form>
+		
+		</div>
+
+
+	
+
+
+
+
+</div>	
+
+    <script src="app.js">
+	</script>
+
+
+</body>
+</html>

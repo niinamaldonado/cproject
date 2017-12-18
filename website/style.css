@@ -1,0 +1,104 @@
+body {
+    background: url('https://i.pinimg.com/originals/0e/57/fa/0e57fa4ac8690df2eb8c8aee41024627.jpg') no-repeat center center fixed;
+
+}
+
+.body {
+    margin-left:auto;
+    margin-right:auto;
+    color: #000000;
+    width: 100%;
+}
+
+.header {
+    background: rgb(214, 102, 209);
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+
+.topheader {
+    background: rgb(194, 255, 227);
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+
+.topheadertwo { 
+    background: rgb(194, 255, 227);
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.output{
+    background: rgb(214, 214, 214);
+    width: 50%;
+    float: right;
+    
+}
+
+.createContact {
+    background: rgb(195, 232, 255);
+    width: 50%;
+    float: inherit;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+a { color: #0068D2; cursor: pointer; }
+
+a:link, a:visited { text-decoration: none; color: #0068D2; }
+
+a:hover, a:active { text-decoration: underline; color: #0068D2; }
+
+body { font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", sans-serif; }
+
+#contacts-table { border-collapse: collapse; }
+
+#contacts-table, #contacts-table th, #contacts-table td { padding: 8px 16px; text-align: left; border: 0px solid #B9BABE; }
+
+#contacts-table th { font-weight: bold; font-size: 14px; color: #29344B; }
+
+#contacts-table td { color: #000; }
+
+#contacts-table tr:nth-child(1n) { background: rgb(214, 214, 214); }
+
+#contacts-form { padding: 10px; }
+
+.text input, .button input { padding: 6px; margin: 0; border: 1px solid #ccc; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; }
+
+#contacts-form .item { margin: 3px 0; }
+
+#contacts-form label, #contacts-form .field { display: inline-block; color: #0C0B07; }
+
+#contacts-form label { width: 150px; font-weight: bold; text-align: right; color: #666; }
+
+#contacts-form .text input { width: 176px; padding: 3px; }
+
+#contacts-form .button { display: inline-block; }
+
+#contacts-form .button-wrapper { padding-left: 113px; }
+
+.button input { 
+    color: rgb(194, 255, 227); 
+    background-color: #fdfdfd; 
+    background: -moz-linear-gradient(#FFFFFF, #585858); 
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#FFFFFF), to(#585858)); 
+    border-radius: 20%;
+    
+.button-default input { 
+    color: rgb(0,0,0); 
+    background-color: #FFFFFF; 
+    background: -moz-linear-gradient(#F38181, #ffffff); 
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#F38181), to(#FFFFFF)); 
+}
+    
